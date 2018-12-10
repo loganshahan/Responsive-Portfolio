@@ -1,0 +1,200 @@
+body{margin: 0;
+  
+}
+
+header{background: #ffff;
+    border-bottom: #cccccc;
+    border-bottom-style: solid;
+    height: 42px;
+    
+
+}
+
+nav{float: right;
+    margin: 0 290px 0 0;
+}
+input{width: 100%;
+}
+
+nav a{
+    padding: 0;
+    margin: 0;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 150%;
+    color: #777777;
+    background: #ffff;
+
+}
+
+.logo{padding: 10px;
+    margin: 0 0 0 290px;
+   font-family: 'Georgia', Times, Times New Roman, serif;
+   font-size: 25px;
+   line-height: 150%;
+   color: #ffff;
+   background: #4aaaa5;
+
+}
+
+h1{padding: 0;
+    margin: 0;
+   font-family: 'Georgia', Times, Times New Roman, serif;
+   font-size: 25px;
+   line-height: 150%;
+   color: #4aaaa5;
+   background: #ffff;
+   border: 2px;
+   border-bottom-style: solid;
+   border-color: #dddddd;
+}
+
+aside {
+    /* width: 50%; */
+    padding: 30px;
+    margin: 0 auto;
+    text-decoration-color: gray;
+    background: white;
+    border: 1px solid #dddddd;
+    width: 960px;
+
+}
+
+#bio-image{width: 100px;
+    height: 100px;
+    margin-right: 20px;
+}
+p{color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    line-height: 30px;
+    
+
+}
+label{color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;}
+button{
+    padding: 5px;
+    background-color: #4aaaa5;
+    color: white;
+    font: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+
+}
+form{padding: 10px
+    font:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+#img1{
+    margin: 10px;
+    width: 200px;
+    height: 200px;
+    float: left;
+    }
+#img2{
+    margin: 10px;
+    width: 200px;
+    height: 200px;
+    float: left;
+    }
+#img3{
+    margin: 10px;
+    width: 200px;
+    height: 200px;
+    float: left;
+    }        
+#img4{
+    margin: 10px;
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+#img5{
+    margin: 10px;
+    width: 200px;
+    height: 200px;
+    float: left;
+    }
+
+.container {
+    width: 960px;
+    margin: 50px auto;
+    display: flex;
+}
+
+footer{background: #666666;
+    text-align: center;
+    border: 5px;
+    border-top-style: solid;
+    border-color: #4aaaa5;
+    margin: 200px 0 0 0;
+    padding: 20px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+}
+  
+.image-container-1{
+    background-image: url('../images/deutschland.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    background-position: center center;
+    margin: 10px;
+    width: 200px;
+    height: 200px;
+    float: left;
+
+}
+.image-description{position: absolute;
+                background: #4aaaa5;
+                color: white;
+                bottom: 0;
+                left: 0;
+                width: 100%;
+                padding: 15px 0;
+                text-align: center;
+                font-family: Georgia, 'Times New Roman', Times, serif
+
+            }
+.image-container-2{
+    background-image: url('../images/screen.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    background-position: center center;
+    margin: 10px;
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+.image-container-3{
+    background-image: url('../images/games.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    background-position: center center;
+    margin: 10px;
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+.image-container-4{
+    background-image: url('../images/games2.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    background-position: center center;
+    margin: 10px;
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+.image-container-5{
+    background-image: url('../images/headphones.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    background-position: center center;
+    margin: 10px;
+    width: 200px;
+    height: 200px;
+    float: left;
+}
