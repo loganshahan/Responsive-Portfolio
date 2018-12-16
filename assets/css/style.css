@@ -237,7 +237,8 @@ footer {
 }
 #masthead{width: 50%;
 position: static;
-float: center;}
+margin: 0 0 0 10%;}
+
 #bio-image{width: 100%}
 #logo{width: 100%;}
 
