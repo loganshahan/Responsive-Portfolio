@@ -212,18 +212,20 @@ footer {
     border-bottom: 2px solid #eeeeee;
   }
 @media screen and (max-width: 980px){
-    .main-section{width: 100%;
+    .main-section{width: 75%;
         float: left}
         #masthead{width: 100%;
-        float: left}
+        }
 
 }
 
 @media screen and (max-width: 768px){
-    .main-section{width: 100%;
-        float: left}
-        #masthead{width: 100%;
-        float: left}  
+    .main-section{width: 80%;
+        margin: 0 0 0 10%;
+    padding: 10%}
+        #masthead{width: 80%;
+            margin: 0 0 0 10%;
+        }  
 
 }
 
@@ -234,11 +236,10 @@ footer {
     float: center;
 }
 #masthead{width: 50%;
+position: static;
 float: center;}
 #bio-image{width: 100%}
 #logo{width: 100%;}
-
-
 
 
 
